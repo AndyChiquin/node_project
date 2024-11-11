@@ -34,9 +34,14 @@ docker run -p 3000:3000 itsandy/node_project
 Docker login
 ~~~
 
-## Docker Desktop pull in Docker Hub
+## Docker Desktop push in Docker Hub
 ~~~
-docker pull itsandy/node_project
+docker push itsandy/node_project
+~~~
+
+## Node Image URL
+~~~
+https://hub.docker.com/r/itsandy/node_project
 ~~~
 
 
